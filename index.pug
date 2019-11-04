@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+html(lang="en")
+    head
+        meta(charset="UTF-8")
+        meta(name="viewport", content="width=device-width, initial-scale=1.0")
+        meta(http-equiv="X-UA-Compatible", content="ie=edge")
+        title pug
+        link(rel="stylesheet", href="https://use.fontawesome.com/releases/v5.5.0/css/all.css")
+        link(rel="stylesheet"  href="https://unpkg.com/aos@next/dist/aos.css")
+        link(rel="stylesheet", href="css/bootstrap.min.css")
+        link( href="https://fonts.googleapis.com/css?family=Anton&display=swap" rel="stylesheet")
+        link(href="https://fonts.googleapis.com/css?family=Cousine&display=swap" rel="stylesheet")
+        link(link href="https://fonts.googleapis.com/css?family=Source+Serif+Pro&display=swap" rel="stylesheet")
+        link(link href="https://fonts.googleapis.com/css?family=Lobster+Two&display=swap" rel="stylesheet")
+
+        link(rel="stylesheet", href="css/style.css")
+
+
+    body
+      nav(class="navbar navbar-dark")
+       .container-fluid
+        a(class="navbar-brand" href="#") STRV
+        button(class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+         aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation")
+         span(class="navbar-toggler-icon")
+
+        div(class="collapse navbar-collapse" id="navbarSupportedContent")
+          ul(class="navbar-nav mr-auto text-center")
+            li( class="nav-item text-uppercase"): a(class="nav-link" href="#" data-value="home") Home 
+            li: a(class="nav-link text-uppercase" href="#" data-value="one") boosted
+            li: a(class="nav-link text-uppercase" href="#" data-value="legalzoom") legalzoom
+            li: a(class="nav-link text-uppercase" href="#" data-value="hallmrk") hallmrk
+            li: a(class="nav-link text-uppercase" href="#" data-value="dojo") dojo
+            li: a(class="nav-link text-uppercase" href="#" data-value="contact") contact
+
+
+
+
+    // start section home
+
+    section(class="home")
+     .overlay
+      .container
+        div(class="contant")
+          .row     
+           div(class="col-md-7 col-sm-12")
+             h1(class="text-uppercase") next lever<br/> design & technology
+             .line
+             P Lorem ipsum dolor sit, amet consectetur adipisicing elit.<br/>amet consectetur adipisicing elit.amet consectetur adipisicing elit.
+             button(class="btn") let,s get started
+             
+           div(class="col-md-5 col-sm-12 text-center arow")
+            span
+          .buttom-home 
+           .row
+            div(class="col-sm-4 left d-none d-lg-block")
+             Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+
+            div(class="col-lg-5 col-md-12 offset-lg-3 text-center")
+              .row
+               div(class="col-4")
+                 img(class="img-fluid" src="img/home1.png", alt="alt")
+               div(class="col-4")
+                 img(class="img-fluid" src="img/home2.png", alt="alt")
+               div(class="col-4")
+                 img(class="img-fluid" src="img/home3.png", alt="alt")
+//- start section brand
+section(class="brand text-center" )
+ .container  
+  div(class="photo" data-aos="fade-left")
+   .row
+   
+    div(class="col-sm-6 col-md-2")
+     img(class="img-fluid" src="img/download.png")
+     p Gold Verified<br/> on Clutch
+      
+    div(class="col-sm-6 col-md-2")
+     img(class="img-fluid" src="img/download1.png")
+     p Gold Verified<br/> on Clutch
+  
+    div(class="col-sm-6 col-md-2")
+     img(class="img-fluid" src="img/download2.png")
+     p Gold Verified<br/> on Clutch
+  
+    div(class="col-sm-6 col-md-2")
+     img(class="img-fluid" src="img/download3.png")
+     p Gold Verified<br/> on Clutch
+  
+    div(class="col-sm-6 col-md-2")
+     img(class="img-fluid" src="img/download4.png")
+     p Gold Verified<br/> on Clutch
+  
+    div(class="col-sm-6 col-md-2")
+     img(class="img-fluid" src="img/download5.png")
+     p Gold Verified<br/> on Clutch
+
+  //- start section boosted
+section(id="one" class="boosted")  
+   .container
+        div(class="contant")
+          .row     
+           div(class="col-md-7 col-sm-12 capion"  data-aos="fade-right")
+             h1(class="text-uppercase") * boosted
+             h2(class="text-uppercase") milions of mils
+             .line
+             P Lorem ipsum dolor sit, amet consectetur adipisicing elit.<br/>amet consectetur adipisicing <br/> elit.amet consectetur adipisicing elit.
+             button(class="btn") find out how
+
+           div(class="col-md-5 d-none d-lg-block text-center"  data-aos="fade-left")
+            img(src="img/boots2.png", alt="alt")
+
+        div(class="flying d-none d-lg-block" data-aos="fade-left"): img( class="fly" src="img/boots1.png", alt="alt" )  
+
+  
+//- start section person one
+section(class="person1")
+ .container
+  div(class="capion text-center" data-aos="fade-up")
+    img(src="img/person1.png", alt="alt")
+    h1(class="text-capitalize") "Lorem ipsum dolor sit, amet consectetur adipisicing elitamet <br/> adipisicing elit.amet consectetur adipisicing elit."
+    p(class="text-uppercase") Lorem ipsum dolor sit, amet consectetur <span> ipsum dolor sit
+
+//- start section legalzoon
+section(id="legalzoom" class="legalzoom")
+ .container
+  .row
+    div(class="col-md-7 col-sm-12 capion"  data-aos="fade-right")
+      h1(class="text-capitalize") legalzoom
+      h2(class="text-uppercase") legal aid in a tap
+      .line
+      P Lorem ipsum dolor sit, amet consectetur adipisicing elit.<br/>amet consectetur adipisicing <br/> elit.amet consectetur adipisicing elit.
+      button(class="btn") find out how
+
+    div(class="col-md-5 d-none d-lg-block text-center"  data-aos="fade-left")
+     .photo    
+        img(src="img/legalzoom.png", alt="alt")
+   
+//- start section person two
+section(class="person2")
+ .container
+  div(class="capion text-center"  data-aos="fade-up")
+    img(src="img/person2.png", alt="alt")
+    h1(class="text-capitalize") "Lorem ipsum dolor sit, amet consectetur adipisicing. <br/> adipisicing elit.amet consectetur adipisicing elit."
+    p(class="text-capitalize") Lorem ipsum dolor sit <span> ipsum dolor sit
+    p(class="text-capitalize") Lorem ipsum dolor sit amet  <span>facebook
+
+    //- start section hallmrk
+
+section(id="hallmrk" class="hallmrk")  
+   .container
+        div(class="contant")
+          .row     
+           div(class="col-md-7 col-sm-12 capion" data-aos="fade-right")
+             h1(class="text-capitalize") hallmrk
+             h2(class="text-uppercase")
+              an a-list streaming app
+             .line
+             P Lorem ipsum dolor sit, amet consectetur adipisicing elit.<br/>amet consectetur adipisicing <br/> elit.amet consectetur adipisicing elit.
+             button(class="btn") find out how
+
+           div(class="col-md-5 d-none d-lg-block text-center"  data-aos="fade-left")
+            
+             img( class="tap" src="img/tap.png", alt="alt")
+
+           div(class="flying d-none d-lg-block"  data-aos="fade-left"): img( class="fly" src="img/phone.png", alt="alt")  
+
+
+//- start section person 3
+section(class="person3")
+ .container
+  div(class="capion text-center"  data-aos="fade-up")
+    img(src="img/person3.png", alt="alt")
+    h1(class="text-capitalize") "Lorem ipsum dolor sit, amet consectetur adipisicing. <br/> adipisicing elit.amet consectetur adipisicing elit."
+    p(class="text-capitalize") Lorem ipsum dolor sit <span> ipsum dolor sit
+
+    //- start section dojo
+section(id="dojo" class="dojo")  
+   .container
+        div(class="contant")
+          .row     
+           div(class="col-md-7 col-sm-12 capion"  data-aos="fade-right")
+             h1 Class Dojo
+             h2(class="text-uppercase") happier classrooms
+             .line
+             P Lorem ipsum dolor sit, amet consectetur adipisicing elit.<br/>amet consectetur adipisicing <br/> elit.amet consectetur adipisicing elit.
+             button(class="btn") find out how
+
+           div(class="col-md-5 d-none d-lg-block text-center photo"  data-aos="fade-left")
+            img(src="img/dojo1.png", alt="alt")
+
+        div(class="flying d-none d-lg-block"  data-aos="fade-left"): img( class="fly" src="img/dojo2.png", alt="alt")  
+
+//- start section person 3
+section(class="person4")
+ .container
+  div(class="capion text-center"  data-aos="fade-up")
+    img(src="img/person4.png", alt="alt")
+    h1(class="text-capitalize") "Lorem ipsum dolor sit, amet consectetur adipisicing. <br/> adipisicing elit.amet consectetur adipisicing elit."
+    p(class="text-capitalize") Lorem ipsum dolor sit <span> ipsum dolor sit
+
+//- start section contact
+ 
+section(id="contact" class="contact")
+  h1(class="text-center text-uppercase") contact us
+  .container
+   .row
+    div(class="col-md-5 inputs m-auto"  data-aos="fade-left")
+     input(class=" col-sm-12 mb-3 p-2" type="text" placeholder="First Name *")
+     input(class=" col-sm-12 mb-3 p-2" type="text" placeholder="Last Name *")
+     input(class="col-sm-12 mb-3 p-2" type="text" placeholder="Phone Number *")
+     input(class=" col-sm-12 p-2 mb-4" type="text" placeholder="Company")
+
+     h4(class="text-left text-uppercase mb-3") what are you looking for?
+
+     div(class="form-check mb-2")
+      input(class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1" value="option1")
+      label(class="form-check-label" for="exampleRadios1") Default radio
+     div(class="form-check  mb-2")
+      input(class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1" value="option2")
+      label(class="form-check-label" for="exampleRadios2") Default radio
+     div(class="form-check mb-4")
+      input(class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1" value="option3")
+      label(class="form-check-label" for="exampleRadios3") Default radio
+
+     h4(class="text-left text-uppercase mb-3") how can we help?
+
+     textarea(class="p-2" placeholder=" Your Message... *" name="" rows="7")
+
+     div(class="form-group form-check mt-4 mb-4")
+      input(type="checkbox" class="form-check-input" id="exampleCheck1")
+      label(class="form-check-label" for="exampleCheck1") Check me out
+
+     button(type="button" class="btn btn-lg btn-block text-uppercase mb-2") send
+     p(class="text-center") Lorem ipsum dolor sit, amet consectetur adipisicing.Lorem ipsum dolor si 
+      a(class="red") consectetur adipisicing.
+
+//- start section footer
+footer(class="text-center d-none d-lg-block p-4")
+ .container
+  .row
+   .content(class="col-lg-8 m-auto" data-aos="fade-left")
+     p(class="text-uppercase col-lg-2") about
+     p(class="text-uppercase col-lg-2") services
+     p(class="text-uppercase col-lg-2") our work
+     p(class="text-uppercase col-lg-2") careers
+     p(class="text-uppercase col-lg-2") contact us
+     p(class="text-uppercase darker col-lg-1") blog
+     p(class="text-uppercase darker col-lg-1") evevts
+
+//- start section footer2
+section(class="footer-brand text-center")
+ .container
+  .row
+
+     div(class="caption col-lg-4 col-md-6 col-sm-12"  data-aos="fade-down")
+      h1(class="text-uppercase") la
+      p 3118th Ave
+      p Venice, CA 90291
+
+     div(class="caption col-lg-4 col-md-6 col-sm-12" data-aos="fade-down")
+      h1(class="text-uppercase") la
+      p 3118th Ave
+      p Venice, CA 90291
+
+     div(class="caption col-lg-4 col-md-6 col-sm-12" data-aos="fade-down")
+      h1(class="text-uppercase") la
+      p 3118th Ave
+      p Venice, CA 90291
+
+     div(class="caption col-lg-4 col-md-6 col-sm-12" data-aos="fade-down")
+      h1(class="text-uppercase") la
+      p 3118th Ave
+      p Venice, CA 90291
+
+     div(class="caption col-lg-4 col-md-6 col-sm-12" data-aos="fade-down")
+      h1(class="text-uppercase") la
+      p 3118th Ave
+      p Venice, CA 90291
+
+     div(class="caption col-lg-4 col-md-6 col-sm-12" data-aos="fade-down")
+      h1(class="text-uppercase") la
+      p 3118th Ave
+      p Venice, CA 90291
+     
+  //-  scrol to top button
+button(class="scroll") 
+ i(class="fa fa-chevron-up fa-2x")
+
+
+
+
+script(src="js/jqaury.js")
+script(src="js/popper.js")
+script(src="js/bootstrap.min.js")
+script(src="js/myjq.js")
+script(src="https://unpkg.com/aos@next/dist/aos.js")
+script AOS.init({ offset:200,duration:1000})
+ 
+  

@@ -1,0 +1,645 @@
+nav {
+  z-index: 1000;
+  position: fixed !important;
+  width: 100%;
+}
+
+nav .navbar-brand {
+  color: #ef0d32 !important;
+  font-family: 'Anton', sans-serif;
+  font-size: 35px;
+}
+
+nav ul {
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+nav ul li {
+  background-color: #212529;
+  padding-bottom: 10px;
+}
+
+nav ul li a {
+  font-family: Arial, Helvetica, sans-serif;
+  color: #fff !important;
+  border-bottom: 1px solid #ef0d32;
+  padding: 30px 0px;
+  width: 70%;
+  margin: 0px auto 15px;
+  font-size: 18px;
+}
+
+nav ul li a:hover {
+  background-color: #ef0d32;
+}
+
+.home {
+  background-color: #ef0d32;
+  color: #fff;
+  background-image: url("../img/Home.jpg");
+  background-position: center center;
+}
+
+.home .contant {
+  width: 80%;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+}
+
+.home .contant h1 {
+  font-family: 'Anton', sans-serif;
+  font-size: 50px;
+  padding: 10px 0px;
+}
+
+.home .contant .line {
+  background-color: #ef0d32;
+  margin: 10px 0px;
+}
+
+.home .contant p {
+  padding: 10px 0px 5px;
+  font-size: 15px;
+}
+
+.home .contant button {
+  background-color: #ef0d32;
+  color: #fff;
+  margin-bottom: 30px;
+}
+
+.home .contant button:hover {
+  background-color: #fff;
+  color: #ef0d32;
+}
+
+.home .contant .arow {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.home .contant .arow span {
+  border-left: 30px solid #ef0d32;
+  border-top: 30px solid transparent;
+  border-bottom: 30px solid transparent;
+  cursor: pointer;
+  margin-bottom: 30px;
+}
+
+.home .buttom-home {
+  border-top: 1px solid #ccc;
+  padding: 5% 0px 0px;
+}
+
+.home .buttom-home .left {
+  font-size: 15px;
+}
+
+.home .buttom-home img {
+  width: 100%;
+}
+
+.brand {
+  padding: 40px 0px;
+  background-color: #f5f5f5;
+}
+
+.brand img {
+  height: 70px;
+  margin: 20px 0px;
+}
+
+.brand p {
+  font-size: 15px;
+  font-family: 'Cousine', monospace;
+}
+
+.boosted {
+  padding: 100px 0px;
+  background-color: #373c3c;
+  color: #fff;
+  position: relative;
+}
+
+.boosted h1 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 900;
+}
+
+.boosted .line {
+  background-color: #fff;
+}
+
+.boosted button {
+  background-color: transparent;
+  border: 1px solid #fff;
+  color: #fff;
+}
+
+.boosted button:hover {
+  background-color: #fff;
+  color: #373c3c;
+}
+
+.boosted img {
+  width: 70%;
+}
+
+.boosted .flying {
+  background-color: #fff;
+  padding: 0px 5px 0px;
+  text-align: center;
+  border-radius: 20px;
+  line-height: 400px;
+  height: 400px;
+  width: 250px;
+  position: absolute;
+  top: 50px;
+  right: 475px;
+}
+
+.boosted .flying img {
+  width: 80%;
+  height: 80%;
+}
+
+.person1 {
+  padding: 100px 0px;
+}
+
+.person1 img {
+  margin-bottom: 20px;
+}
+
+.person1 h1 {
+  font-family: 'Source Serif Pro', serif;
+  line-height: 1.5em;
+  font-size: 25px !important;
+}
+
+.person1 p {
+  color: #aaa;
+  padding: 0px !important;
+  font-family: 'Cousine', monospace;
+}
+
+.person1 p span {
+  color: #000;
+}
+
+.legalzoom {
+  padding: 100px 0px;
+  background-image: linear-gradient(50deg, #6dece2, #03A9F4, #1e82d2);
+  color: #fff;
+}
+
+.legalzoom h1 {
+  margin: 50px 0px;
+  font-family: 'Lobster Two', cursive;
+}
+
+.legalzoom .line {
+  background-color: #fff;
+}
+
+.legalzoom button {
+  background-color: transparent;
+  border: 1px solid #fff;
+  color: #fff;
+}
+
+.legalzoom button:hover {
+  background-color: #fff;
+  color: #03A9F4;
+}
+
+.legalzoom .photo {
+  padding: 30px 10px;
+  background-color: #fff;
+  border-radius: 20px;
+  width: 50%;
+}
+
+.legalzoom .photo img {
+  width: 100%;
+}
+
+.person2 {
+  padding: 100px 0px;
+}
+
+.person2 img {
+  margin-bottom: 20px;
+}
+
+.person2 h1 {
+  font-family: 'Source Serif Pro', serif;
+  line-height: 1.5em;
+  font-size: 22px !important;
+}
+
+.person2 p {
+  color: #aaa;
+  padding: 0px !important;
+  font-family: 'Cousine', monospace;
+  margin-bottom: 0px;
+}
+
+.person2 p span {
+  color: #000;
+}
+
+.hallmrk {
+  padding: 100px 0px;
+  background-image: linear-gradient(125deg, #ff943b, #FF9800);
+  color: #fff;
+  position: relative;
+  overflow: hidden;
+}
+
+.hallmrk h1 {
+  font-family: 'Lobster Two', cursive;
+  font-weight: 900;
+}
+
+.hallmrk .line {
+  background-color: #fff;
+}
+
+.hallmrk button {
+  background-color: transparent;
+  border: 1px solid #fff;
+  color: #fff;
+}
+
+.hallmrk button:hover {
+  background-color: #fff;
+  color: #373c3c;
+}
+
+.hallmrk img {
+  width: 70%;
+}
+
+.hallmrk .tap {
+  width: 150%;
+  height: 400px;
+  position: relative;
+  left: 50px;
+  bottom: 10px;
+  border: 35px solid #fff;
+  border-radius: 20px;
+}
+
+.hallmrk .flying {
+  background-color: #fff;
+  padding: 25px 5px 25px;
+  text-align: center;
+  border-radius: 20px;
+  height: 290px;
+  width: 155px;
+  position: absolute;
+  top: 135px;
+  right: 560px;
+}
+
+.hallmrk .flying img {
+  width: 90%;
+  height: 100%;
+}
+
+.person3 {
+  padding: 100px 0px;
+}
+
+.person3 img {
+  margin-bottom: 20px;
+}
+
+.person3 h1 {
+  font-family: 'Source Serif Pro', serif;
+  line-height: 1.5em;
+  font-size: 22px !important;
+}
+
+.person3 p {
+  color: #aaa;
+  padding: 0px !important;
+  font-family: 'Cousine', monospace;
+  margin-bottom: 0px;
+}
+
+.person3 p span {
+  color: #000;
+}
+
+.dojo {
+  padding: 100px 0px;
+  background-image: linear-gradient(50deg, #03A9F4, #1e82d2);
+  color: #fff;
+  position: relative;
+}
+
+.dojo h1 {
+  font-family: 'Cousine', monospace;
+  font-weight: 900;
+}
+
+.dojo .line {
+  background-color: #fff;
+}
+
+.dojo button {
+  background-color: transparent;
+  border: 1px solid #fff;
+  color: #fff;
+}
+
+.dojo button:hover {
+  background-color: #fff;
+  color: #373c3c;
+}
+
+.dojo img {
+  width: 70%;
+}
+
+.dojo .photo {
+  position: relative;
+  top: 50px;
+}
+
+.dojo .flying {
+  background-color: #fff;
+  padding: 0px 5px 0px;
+  text-align: center;
+  border-radius: 20px;
+  line-height: 400px;
+  height: 400px;
+  width: 220px;
+  position: absolute;
+  top: 50px;
+  right: 31%;
+}
+
+.dojo .flying img {
+  width: 80%;
+  height: 80%;
+}
+
+.person4 {
+  padding: 100px 0px;
+}
+
+.person4 img {
+  margin-bottom: 20px;
+}
+
+.person4 h1 {
+  font-family: 'Source Serif Pro', serif;
+  line-height: 1.5em;
+  font-size: 22px !important;
+}
+
+.person4 p {
+  color: #aaa;
+  padding: 0px !important;
+  font-family: 'Cousine', monospace;
+  margin-bottom: 0px;
+}
+
+.person4 p span {
+  color: #000;
+}
+
+.contact {
+  padding: 100px 0px;
+}
+
+.contact h1 {
+  margin: 0px 0px 45px;
+  font-family: 'Anton', sans-serif;
+}
+
+.contact input:focus {
+  border: 1px solid #ef0d32;
+  outline: none;
+}
+
+.contact h4 {
+  font-family: 'Anton', sans-serif;
+}
+
+.contact .form-check {
+  border: 1px solid #ccc;
+  height: 40px;
+  line-height: 40px;
+}
+
+.contact .form-check .input[type=checkbox], .contact .form-check input[type=radio] {
+  margin-top: .9rem;
+  margin-left: -1.05rem;
+}
+
+.contact .form-check-input {
+  margin-top: .9rem;
+  margin-left: -1.05rem;
+}
+
+.contact textarea {
+  width: 100%;
+}
+
+.contact button {
+  background-color: #ef0d32;
+  color: #fff;
+  border: 1px solid #ef0d32;
+}
+
+.contact button:hover {
+  background-color: #fff;
+  color: #ef0d32;
+}
+
+.contact .red {
+  color: #ef0d32 !important;
+  cursor: pointer;
+}
+
+footer {
+  background-color: #373c3c;
+  color: #fff;
+}
+
+footer .content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+footer .content p {
+  font-size: 15px;
+  font-family: 'Cousine', monospace;
+  margin-bottom: 0px;
+}
+
+footer .content .darker {
+  color: #7a8080;
+}
+
+.footer-brand {
+  padding: 100px 0px;
+  background-color: #373c3c;
+}
+
+.footer-brand h1 {
+  color: #fff;
+  font-size: 110px !important;
+  font-family: 'Anton', sans-serif;
+  margin-top: 25px;
+}
+
+.footer-brand p {
+  color: #7a8080;
+  padding: 0px !important;
+}
+
+.footer-brand p:first-of-type {
+  margin-bottom: 0px !important;
+}
+
+.scroll {
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
+  width: 50px;
+  height: 50px;
+  background-color: #373c3c;
+  border: 1px solid #fff;
+  border-radius: 5px;
+  color: #fff;
+  cursor: pointer;
+  font-size: 20px;
+  display: none;
+}
+
+.home {
+  background-size: cover;
+}
+
+.home .overlay {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top: 0;
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+nav ul li a, .home .contant button, .contact button, .boosted button, .legalzoom button, .hallmrk button, .dojo button {
+  -webkit-transition: all .4s ease-in-out;
+  -moz-transition: all .4s ease-in-out;
+  -o-transition: all .4s ease-in-out;
+  -transition: all .4s ease-in-out;
+}
+
+.home .contant button, .boosted button, .legalzoom button, .hallmrk button, .dojo button {
+  padding: 10px 20px;
+  font-family: 'Cousine', monospace;
+  font-size: 15px;
+  border-radius: 0px;
+}
+
+.home .contant button:focus, .boosted button:focus, .legalzoom button:focus, .hallmrk button:focus, .dojo button:focus {
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+
+.home .contant .line, .boosted .line, .legalzoom .line, .hallmrk .line, .dojo .line {
+  height: 2px;
+  width: 30px;
+  margin: 30px 0px;
+}
+
+.boosted h2, .legalzoom h2, .hallmrk h2, .dojo h2 {
+  font-family: 'Anton', sans-serif;
+  font-size: 50px;
+  padding: 10px 0px;
+}
+
+@media (max-width: 425px) {
+  .home p {
+    font-size: 14px;
+  }
+  .home .contant button {
+    margin-bottom: 10px;
+  }
+}
+
+@media (max-width: 767.98px) {
+  .contant {
+    text-align: center;
+  }
+  h1 {
+    font-size: 34px !important;
+  }
+  .line {
+    margin: auto !important;
+  }
+  .boosted .capion {
+    margin: auto !important;
+  }
+  .boosted .line {
+    margin: auto !important;
+  }
+}
+
+@media (max-width: 768.98px) {
+  .capion {
+    margin: auto !important;
+    text-align: center;
+  }
+  .line {
+    margin: auto !important;
+  }
+  p {
+    padding: 10px 10px;
+  }
+}
+
+@media (max-width: 1024px) {
+  .nav {
+    background-color: #373c3c;
+  }
+  .boosted .flying {
+    height: 430px !important;
+    top: 25px !important;
+    right: 245px !important;
+  }
+  .dojo .flying {
+    height: 430px !important;
+    top: 25px !important;
+    right: 265px !important;
+  }
+}
+
+@media (max-width: 1516px) {
+  .hallmrk .flying {
+    display: none !important;
+  }
+  .boosted .flying {
+    display: none !important;
+  }
+}
+/*# sourceMappingURL=style.css.map */

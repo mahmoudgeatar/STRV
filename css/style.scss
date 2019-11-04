@@ -1,0 +1,712 @@
+$homeColor:#ef0d32;
+$wColor:#fff;
+$sectionPadding: 100px 0px;
+$darkColor:#373c3c;
+
+
+// start nav bar
+
+nav{
+    z-index: 1000;
+    position: fixed!important;
+    width: 100%;
+   
+    .navbar-brand{
+        color: $homeColor!important;
+        font-family: 'Anton', sans-serif;
+        font-size: 35px;
+    }
+
+    ul{
+        padding-top: 15px;
+        padding-bottom: 15px;
+
+    li{
+        background-color: #212529;
+        padding-bottom: 10px;
+        a{
+            font-family: Arial, Helvetica, sans-serif;
+            color: $wColor!important;
+            border-bottom: 1px solid $homeColor;
+            padding: 30px 0px;
+            width: 70%;
+            margin: 0px auto 15px;
+            font-size: 18px;
+            @extend %transition;
+            &:hover{
+                background-color: $homeColor
+            }
+        }
+    }
+ }
+  
+}
+
+// start home section
+.home{
+    background-color: $homeColor;
+    color: $wColor;
+    background-image: url("../img/Home.jpg");
+    background-position: center center;
+    @extend %cover;
+
+    .overlay{
+       @extend %overlay
+     }
+
+     .contant{
+         width: 80%;
+         position: absolute;
+         left: 50%;
+         top: 50%;
+         transform: translate(-50%,-50%);
+         h1{
+            font-family: 'Anton', sans-serif;
+             font-size: 50px;
+             padding: 10px 0px;           
+         }
+
+         .line{
+            background-color: $homeColor;
+           @extend %line;
+           margin: 10px 0px;
+         }
+
+         p{
+            padding: 10px 0px 5px;
+            font-size: 15px;           
+         }
+
+         button{
+            @extend %mainButton;
+            background-color: $homeColor;
+            color:$wColor;
+            margin-bottom: 30px;
+           @extend %transition;
+
+            &:hover{
+                background-color: $wColor;
+                color: $homeColor;
+            }
+         }
+
+         .arow{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            span{
+                border-left: 30px solid $homeColor;
+                border-top: 30px solid transparent;
+                border-bottom: 30px solid transparent;
+                cursor: pointer;
+                margin-bottom: 30px;
+            }
+        }
+         
+     }
+
+     .buttom-home{
+       border-top:1px solid #ccc;
+       padding: 5% 0px 0px;
+       .left{
+           font-size: 15px;
+       }
+         img{
+             width: 100%;
+         }
+         
+     }
+}
+
+// start section brand
+ 
+.brand{
+    padding: 40px 0px;
+    background-color: #f5f5f5;
+
+    img{
+        height: 70px;
+    
+     margin:20px 0px
+        }
+
+    p{
+     font-size: 15px;
+     font-family: 'Cousine', monospace;
+    }
+}
+
+// start section boosted
+
+.boosted{
+    padding: $sectionPadding;
+    background-color: $darkColor;
+    color: $wColor;
+    position: relative;
+    h1{
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: 900;
+    }
+    h2{
+        @extend %h2
+    }
+    .line{
+       background-color: $wColor;
+       @extend %line;
+    }
+    button{
+        @extend %mainButton;
+        background-color: transparent;
+        border: 1px solid $wColor;
+        color: $wColor;
+        &:hover{
+            background-color: $wColor;
+            color: $darkColor;
+        }
+    }
+
+    img{
+        width: 70%
+    }
+
+    .flying{
+        background-color: $wColor;
+        padding: 0px 5px 0px;
+        text-align: center;
+        border-radius: 20px;
+        line-height: 400px;
+        height: 400px;
+        width: 250px;
+        position: absolute;
+        top: 50px;
+        right: 475px;
+
+        img{
+            width: 80%;
+            height: 80%;
+        }
+     }
+       
+    }
+   
+    // start section person1
+
+    .person1{
+        padding: $sectionPadding;
+        img{
+            margin-bottom: 20px;
+        }
+        h1{
+            font-family: 'Source Serif Pro', serif;
+            line-height: 1.5em;
+            font-size: 25px!important;
+        }
+
+        p{
+            color: #aaa;
+            padding: 0px !important;
+            font-family: 'Cousine', monospace;
+            span{
+                color: #000;
+            }
+        }
+    }
+
+    // start section legalzoom
+     .legalzoom{
+         padding: $sectionPadding;
+         background-image: linear-gradient(50deg,#6dece2, #03A9F4, #1e82d2);
+         color: $wColor;
+         h1{
+             margin: 50px 0px;
+             font-family: 'Lobster Two', cursive;
+         }
+         h2{
+            @extend %h2
+        }
+         .line{
+             @extend %line;
+             background-color: $wColor;
+         }
+         button{
+             @extend %mainButton;
+             background-color: transparent;
+             border: 1px solid $wColor;
+             color: $wColor;
+             &:hover{
+                background-color: $wColor;
+                color: #03A9F4;
+            }
+         }
+
+         .photo{
+             padding: 30px 10px;
+             background-color: $wColor;
+             border-radius: 20px;
+             width: 50%;
+
+             img{
+                 width: 100%;
+             }
+         }
+
+     }
+
+    //  start section person two
+    .person2{
+        padding: $sectionPadding;
+        img{
+            margin-bottom: 20px;
+        }
+        h1{
+            font-family: 'Source Serif Pro', serif;
+            line-height: 1.5em;
+            font-size: 22px!important;
+        }
+
+        p{
+            color: #aaa;
+            padding: 0px !important;
+            font-family: 'Cousine', monospace;
+            margin-bottom: 0px;
+            span{
+                color: #000;
+            }
+        }
+    }
+
+
+    // start section hallmrk
+    .hallmrk{
+        padding: $sectionPadding;
+        background-image: linear-gradient(125deg, #ff943b, #FF9800);
+        color: $wColor;
+        position: relative;
+        overflow: hidden;
+        h1{
+            font-family: 'Lobster Two', cursive;
+            font-weight: 900;
+        }
+        h2{
+           @extend %h2
+        }
+        .line{
+           background-color: $wColor;
+           @extend %line;
+        }
+        button{
+            @extend %mainButton;
+            background-color: transparent;
+            border: 1px solid $wColor;
+            color: $wColor;
+            &:hover{
+                background-color: $wColor;
+                color: $darkColor;
+            }
+        }
+    
+        img{
+            width: 70%
+        }
+
+        .tap{
+            width: 150%;
+            height: 400px;
+            position: relative;
+            left: 50px;
+            bottom: 10px;
+            border: 35px solid $wColor;
+            border-radius: 20px;
+        }
+    
+        .flying{
+            background-color: $wColor;
+            padding: 25px 5px 25px;
+            text-align: center;
+            border-radius: 20px;
+            height: 290px;
+            width: 155px;
+            position: absolute;
+            top: 135px;
+            right: 560px;
+    
+            img{
+                width: 90%;
+                height: 100%;
+            }
+         }
+           
+        }
+
+        // start section person 3
+        //  start section person two
+    .person3{
+        padding: $sectionPadding;
+        img{
+            margin-bottom: 20px;
+        }
+        h1{
+            font-family: 'Source Serif Pro', serif;
+            line-height: 1.5em;
+            font-size: 22px!important;
+        }
+
+        p{
+            color: #aaa;
+            padding: 0px !important;
+            font-family: 'Cousine', monospace;
+            margin-bottom: 0px;
+            span{
+                color: #000;
+            }
+
+            
+        }
+    }
+
+
+    // start section dojo
+
+    .dojo{
+        padding: $sectionPadding;
+        background-image: linear-gradient(50deg, #03A9F4, #1e82d2);
+        color: $wColor;
+        position: relative;
+        h1{
+            font-family: 'Cousine', monospace;
+            font-weight: 900;
+        }
+        h2{
+            @extend %h2
+        }
+        .line{
+           background-color: $wColor;
+           @extend %line;
+        }
+        button{
+            @extend %mainButton;
+            background-color: transparent;
+            border: 1px solid $wColor;
+            color: $wColor;
+            &:hover{
+                background-color: $wColor;
+                color: $darkColor
+            }
+        }
+    
+        img{
+            width: 70%
+        }
+
+        .photo{
+           position: relative;
+           top: 50px;
+        }
+    
+        .flying{
+            background-color: $wColor;
+            padding: 0px 5px 0px;
+            text-align: center;
+            border-radius: 20px;
+            line-height: 400px;
+            height: 400px;
+            width: 220px;
+            position: absolute;
+            top: 50px;
+            right: 31%;
+    
+            img{
+                width: 80%;
+                height: 80%;
+            }
+         }
+           
+        }
+
+
+        //start section person 4
+        .person4{
+            padding: $sectionPadding;
+            img{
+                margin-bottom: 20px;
+            }
+            h1{
+                font-family: 'Source Serif Pro', serif;
+                line-height: 1.5em;
+                font-size: 22px!important;
+            }
+    
+            p{
+                color: #aaa;
+                padding: 0px !important;
+                font-family: 'Cousine', monospace;
+                margin-bottom: 0px;
+                span{
+                    color: #000;
+                }
+            }
+        }
+
+    // start section contact
+
+    .contact{
+        padding: $sectionPadding;
+        h1{
+            margin: 0px 0px 45px;
+            font-family: 'Anton', sans-serif;
+
+        }
+        input{
+           &:focus{
+               border:1px solid $homeColor;
+               outline: none;
+           }
+        }
+        h4{
+            font-family: 'Anton', sans-serif;;
+
+        }
+
+        .form-check{
+         border: 1px solid #ccc;
+         height: 40px;
+         line-height: 40px;
+         .input[type=checkbox], input[type=radio]{
+             margin-top:.9rem; 
+             margin-left: -1.05rem;
+         }
+         }
+
+         .form-check-input{
+            margin-top: .9rem;
+            margin-left: -1.05rem;
+         }
+
+        textarea{
+           width: 100%;
+        }
+        button{
+            background-color: $homeColor;
+            color: $wColor;
+            border: 1px solid $homeColor;
+            @extend %transition;
+            &:hover{
+                background-color: $wColor;
+                color: $homeColor;
+            }
+        }
+        .red{
+            color: $homeColor!important;
+            cursor: pointer;
+        }
+    }
+
+    // start footer
+     
+    footer{
+        background-color: $darkColor;
+        color: $wColor;
+        .content{
+            display: flex;
+            p{
+                font-size: 15px;
+                font-family: 'Cousine', monospace;
+                margin-bottom: 0px;
+            }
+            .darker{
+                color: #7a8080;
+            }
+        }
+    }
+
+    // start section footer-brand
+
+    .footer-brand{
+        padding: $sectionPadding;
+        background-color: $darkColor;
+        h1{
+            color: $wColor;
+            font-size: 110px!important;
+            font-family: 'Anton', sans-serif;
+            margin-top: 25px;
+        }
+        p{
+            color: #7a8080;
+            padding: 0px!important;
+
+            &:first-of-type{
+                margin-bottom: 0px!important;
+            }
+        }
+        
+    }
+
+    //sroll to top button
+
+    .scroll{
+        position: fixed;
+        bottom: 30px;
+        right: 30px;
+        width: 50px;
+        height: 50px;
+        background-color: $darkColor;
+        border: 1px solid $wColor;
+        border-radius: 5px;
+        color: $wColor;
+        cursor: pointer;
+        font-size: 20px;
+        display: none;
+    }
+
+
+
+
+
+
+// mexin
+
+%cover{
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover; 
+}
+
+%overlay{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    background-color: rgba(0,0,0,.8)
+}
+
+%transition{
+-webkit-transition:all .4s ease-in-out;
+-moz-transition: all .4s ease-in-out;
+-o-transition: all .4s ease-in-out;
+-transition: all .4s ease-in-out;
+}
+
+%mainButton{
+    padding: 10px 20px;
+    font-family: 'Cousine', monospace;
+    font-size: 15px;
+    border-radius: 0px;
+    &:focus{
+        box-shadow: none;
+    }
+    @extend %transition;
+}
+
+%line{
+    height: 2px;
+    width: 30px;
+    margin: 30px 0px;
+}
+
+%h2{
+    font-family: 'Anton', sans-serif;
+    font-size: 50px;
+    padding: 10px 0px;
+}
+
+%darkColor{
+    background-color: #373c3c;
+}
+
+
+// media quary
+
+@media (max-width: 425px){
+    .home{
+        p{
+            font-size: 14px;
+        }
+     .contant{
+        button{
+        margin-bottom: 10px;
+      }
+    }
+  }
+}
+
+@media (max-width: 767.98px) { 
+    .contant{
+        text-align: center;
+    }
+    h1{
+        font-size: 34px!important;
+    }
+    .line{
+        margin: auto!important;
+    }
+
+    .boosted{
+        .capion{
+            margin: auto!important;
+        }
+        .line{
+            margin: auto!important;
+        }
+    }
+ }
+
+
+
+ @media (max-width: 768.98px){
+    .capion{
+        margin: auto!important;
+        text-align: center;
+    }
+    .line{
+        margin: auto!important;
+    }
+    p{
+        padding: 10px 10px;
+    }
+ }
+
+ @media (max-width: 1024px){
+
+.nav{
+    background-color: $darkColor;
+}
+
+.boosted{
+    .flying{
+        height: 430px!important;
+        top: 25px!important;
+        right: 245px!important;
+
+    }
+  }
+
+ .dojo{
+    .flying{
+        height: 430px!important;
+        top: 25px!important;
+        right: 265px!important;
+
+    }
+ }
+   
+ }
+
+
+ @media(max-width:1516px){
+    .hallmrk{
+        .flying{
+            display: none!important;
+          
+        }
+     }
+
+     .boosted{
+         .flying{
+             display: none!important;
+         }
+     }
+ }
+
+
